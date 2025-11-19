@@ -1,1 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: 'Inter';
+  --font-wg-title: 715;
+  --font-decor: 'Press Start 2P';
+  --font-wg-text: 410;
+  --bg-image: repeating-linear-gradient(0deg, #d3d3d3, transparent 2px),
+              repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+              linear-gradient(#e7e7e7, #1a1a1a);
+  --block-wdh: clamp(375px, 50%, 700px);
+  --h1-wdh: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --h2-wdh: clamp(0.875rem, 0.4423rem + 1.8462vw, 1.25rem);
+  --bt-wdh: 14px;
+  --marg-title: 20px;
+  --marg-subtitle: clamp(25px, 29px, 33px)
+}

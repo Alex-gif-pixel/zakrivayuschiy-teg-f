@@ -9,10 +9,70 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="icon" href="./images/icon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon-mobile.png" />
   </head>
   <body class="page">
-    <header class="header"></header>
-    <main></main>
+    <header class="header default__block">
+      <h1 class="title decor__text">&lthtml&gt</h1>
+      <h2 class="subtitle decor__text">Закрывающий тег</h2>
+      <div class="theme__menu">
+        <ul class="theme__menu-list decor__text">
+          <li class="theme__menu-item">
+            <button class="theme__menu-button">Темно</button>
+          </li>
+          <li class="theme__menu-item">
+            <button class="theme__menu-button">Авто</button>
+          </li>
+          <li class="theme__menu-item">
+            <button class="theme__menu-button">Светло</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="content default__block">
+      <dialog>
+        <svg viewBox="0 0 39 39" width="39" height="39" class="icon">
+          <use href="./svg/floppy.svg#floppy" />
+        </svg>
+      </dialog>
+      <section class="content__section">
+        <p class="content__section-decor decor__text">&lthtml&gt</p>
+        <div class="content__section_title-block">
+          <h3 class="content__section-title">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h3>
+        </div>
+        <img
+          src="./images/Фургончик.png"
+          alt="Картинка фургона"
+          class="content__section-image"
+        />
+        <div class="content__section_text-block">
+          <p class="content__section-text">
+            Это было самое начало пути. На этом этапе важно было проникнуться
+            основами и настроиться на учёбу. И, возможно, подумать, как новые
+            знания могут повлиять на ваше будущее.
+          </p>
+          <p class="content__section-text remark">
+            Место для ваших воспоминаний о начале обучения.
+          </p>
+        </div>
+        <div class="button__block">
+          <svg viewBox="0 0 27 24" width="27" height="24" class="heart">
+            <use href="./svg/heart.svg#heart" />
+          </svg>
+          <button class="content__section-button">Like</button>
+        </div>
+      </section>
+    </main>
+    <button class="save__button">
+      <svg viewBox="0 0 21 21" width="21" height="21" class="icon">
+        <use href="./svg/small floppy.svg#small__floppy" />
+      </svg>
+      Сохранить на память
+    </button>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
