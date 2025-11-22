@@ -8,9 +8,15 @@
               repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
               linear-gradient(#e7e7e7, #1a1a1a);
   --block-wdh: clamp(375px, 50%, 700px);
-  --h1-wdh: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+  --h1-wdh: clamp(3.0625rem, 1.0087rem + 4.9231vw, 4.0625rem);
   --h2-wdh: clamp(0.875rem, 0.4423rem + 1.8462vw, 1.25rem);
   --bt-wdh: 14px;
-  --marg-title: 20px;
-  --marg-subtitle: clamp(25px, 29px, 33px)
+  --tx-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  --tx-stroke: #fff;
+  --font-size-bt: 14px;
+  --bg-color: #fff;
+  --accent: #000;
+  --main-body: red;
+  --core: #fff;
+  --sparks: red;
 }
