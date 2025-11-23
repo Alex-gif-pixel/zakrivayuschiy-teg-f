@@ -16,7 +16,8 @@
   --font-size-bt: 14px;
   --bg-color: #fff;
   --accent: #000;
+  --contour-click: red;
   --main-body: red;
-  --core: #fff;
+  --core: red;
   --sparks: red;
 }
