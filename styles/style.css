@@ -136,8 +136,8 @@
   filter: invert(1);
 }
 
-.grayscale {
-  filter: grayscale(100%);
+.hue-rotate {
+  filter: hue-rotate(0.5turn);
 }
 
 .saturate-contrast {
